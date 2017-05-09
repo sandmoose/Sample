@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="regression" duration-ms="83592" started-at="2017-05-08T09:21:59Z" finished-at="2017-05-08T09:23:22Z">
+    <groups>
+      <group name="login">
+        <method signature="LoginTests.loginTests()[pri:0, instance:com.tests.LoginTests@6adede5]" name="loginTests" class="com.tests.LoginTests"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="sample" duration-ms="83592" started-at="2017-05-08T09:21:59Z" finished-at="2017-05-08T09:23:22Z">
+      <class name="com.tests.LoginTests">
+        <test-method status="PASS" signature="begin()[pri:0, instance:com.tests.LoginTests@6adede5]" name="begin" is-config="true" duration-ms="14" started-at="2017-05-08T14:51:59Z" finished-at="2017-05-08T14:51:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- begin -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tests.LoginTests@6adede5]" name="setup" is-config="true" duration-ms="5115" started-at="2017-05-08T14:51:59Z" finished-at="2017-05-08T14:52:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTests()[pri:0, instance:com.tests.LoginTests@6adede5]" name="loginTests" duration-ms="74854" started-at="2017-05-08T14:52:04Z" finished-at="2017-05-08T14:53:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTests -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.LoginTests@6adede5]" name="tearDown" is-config="true" duration-ms="3611" started-at="2017-05-08T14:53:19Z" finished-at="2017-05-08T14:53:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.LoginTests -->
+    </test> <!-- sample -->
+  </suite> <!-- regression -->
+</testng-results>

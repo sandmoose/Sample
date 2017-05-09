@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="regression" parallel="methods">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="sample" verbose="0">
+		<parameter name="browser" value="FF"></parameter>
+		<groups>
+			<run>
+				<include name="login" />
+				<exclude name="logout" />
+			</run>
+		</groups>
+		<packages>
+			<package name="com.tests" />
+			<package name="com.utils" />
+		</packages>
+	</test> <!-- Test -->
+</suite> <!-- suite -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium Automation" verbose="1" parallel = "tests" thread-count="5">
+	<test name="Sample Tests" >
+		<parameter name="browser" value="Chrome"></parameter>
+		<groups>
+			<run>
+				<include name="login"></include>
+				<exclude name="functional"></exclude>
+			</run>
+		</groups>
+		<packages>
+			<package name="com.tests"></package>
+			<package name="com.utils"></package>
+		</packages>
+	</test>
+</suite>
